@@ -1,6 +1,6 @@
 import express from 'express';
-import { getMovie, getMovies, storeMovie, updateMovie, deleteMovie, registerUser } from '../controllers/movie';
-import auth from '../middlewares/auth';
+import { getMovie, getMovies, storeMovie, updateMovie, deleteMovie, registerUser } from '../controllers/movie.js';
+import auth from '../middlewares/auth.js';
 const api = express.Router();
 
 api.get('/movies', getMovies);

@@ -1,4 +1,4 @@
-import { messages } from './messages';
+import { messages } from './messages.js';
 
 const queryLimit = (data, limit) => {
     const max = 20;
